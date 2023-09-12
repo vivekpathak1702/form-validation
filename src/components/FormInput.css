@@ -1,0 +1,20 @@
+.formInput{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+.formInput input{
+    /* width: 40%; */
+}
+ 
+
+
+  span{
+    font-size: 12px;
+    padding: 3px;
+    color: red;
+  }
+
+  input:invalid ~ span{
+    display: block;
+  }
